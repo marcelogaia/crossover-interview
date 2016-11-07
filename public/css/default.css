@@ -1,0 +1,77 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html,body {
+	height: 100%;
+}
+
+.container{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.item td:not(:last-child){
+	cursor: pointer;
+}
+
+.no-gutter > [class*='col-'] {
+	padding-right:0;
+	padding-left:0;
+}
+
+.label, .report-edit label, .patient-edit label {
+	font-size:.9em;
+	color:#333;
+	display: inline-block;
+	width:110px;
+	text-align: left;
+}
+
+.panel-heading {
+	font-size:1.2em;
+	font-weight: bold;
+}
+
+body.login {
+	background-color: #EEE;
+}
+body.login>.container-fluid>.ui-widget {
+	background-color: white;
+	width:300px;
+	margin:150px auto 0;
+	padding:10px 20px 40px 20px;
+	border:1px solid #CCC;
+	border-radius: 6px;
+}
+
+body.login .ui-widget label{
+	display: inline-block;
+	width:120px;
+}
+
+body.login .ui-widget input{
+	font-size:1.3em;
+	font-weight: 300;
+	color:#333;
+	height:45px;
+}
+
+tr.blank {
+	display: none;
+}
+
+.panel-body .col-sm-6 p {
+	line-height: 35px;
+}
+.col-sm-6 .input-group, 
+.col-sm-6 .form-control {
+	width: calc(100% - 120px);
+	float:right;
+}
+
+.col-sm-6 .input-group .form-control {
+	display: table;
+	width: 100%;
+}
